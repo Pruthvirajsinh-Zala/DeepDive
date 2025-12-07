@@ -1,0 +1,10 @@
+# Requirements for DeepDive (preliminary - generated from `code.ipynb` imports)
+google-generativeai
+duckduckgo-search
+markdown
+ipython
+jupyter
+
+# Tip: pin versions after you've validated the environment, e.g.:
+# pip install google-generativeai==x.y.z
+# pip freeze > requirements.txt
