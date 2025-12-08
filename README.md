@@ -2,6 +2,18 @@
 
 A small, personal workspace containing exploratory code and a Jupyter Notebook (`code.ipynb`). This repository is intended for experiments, learning, and prototyping.
 
+The Problem :  Conducting preliminary due diligence on companies or entities is a manual, time-intensive process. Analysts spend hours context-switching between search engines, news sites, and report documents, often missing key connections due to information overload.
+
+The Solution : "DeepDive" is a multi-agent system powered by Gemini 1.5 that automates the initial phase of OSINT investigation. Instead of a single prompt, it utilizes a squad of specialized agents:
+
+The Investigator: Formulates search queries and retrieves raw information.
+
+The Analyst: Reads the raw data, filters out noise, and identifies key risk factors or interesting facts.
+
+The Reporter: Synthesizes the analysis into a clean, markdown-formatted executive summary.
+
+Value: This agent reduces the time required for a "Level 1" background check from 2 hours to approximately 3 minutes. It allows analysts to focus on high-level decision-making rather than data gathering.
+
 ## Contents
 
 - `code.ipynb` — main Jupyter Notebook (analysis / experiments).
