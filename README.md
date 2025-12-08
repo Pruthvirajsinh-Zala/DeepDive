@@ -1,3 +1,5 @@
+![DeepDive](DeepDive.png)
+
 # DeepDive
 
 A small, personal workspace containing exploratory code and a Jupyter Notebook (`code.ipynb`). This repository is intended for experiments, learning, and prototyping.
